@@ -1,39 +1,39 @@
--- List all the databases
+-- 3.List all the databases
 SHOW DATABASES;
 
--- Write the SQL code necessary to use the albums_db database
+-- 4. Write the SQL code necessary to use the albums_db database
 USE albums_db;
 
--- Show the currently selected database
+-- 5.Show the currently selected database
 SELECT DATABASE();
 
--- List all tables in the database
+-- 6.List all tables in the database
 SHOW TABLES;
--- Write the SQL code to switch the employees database
+-- 7.Write the SQL code to switch the employees database
 USE employees;
--- Show the currently selected database
+-- 8.Show the currently selected database
 SELECT DATABASE();
 
--- List all the tables in the database
+-- 9.List all the tables in the database
 SHOW TABLES;
 
--- Explore the employees table. What different data types are present on this table?
-DESCRIBE employees;
+-- 10.Explore the employees table. What different data types are present on this table?
+-- INT, Date, Varchar, date
 
 
--- Which table(s) do you think contain a numeric type column?
--- emp_no
+-- 11.Which table(s) do you think contain a numeric type column?
+-- emp_no, salaries, dept_emp, titles
 
--- Which table(s) do you think contain a string type column? 
--- first_name and last_name
+-- 12.Which table(s) do you think contain a string type column? 
+-- departments, dept_emp, dept_manager, employees, titles
 
--- Which table(s) do you think contain a date type column? 
--- birth_date and hire_date 
+-- 13. Which table(s) do you think contain a date type column? 
+-- dept_emp, dept_manager, employees, salaries, title
 
--- What is the relationship between the employees and the departments tables? 
--- department_id
+-- 14.What is the relationship between the employees and the departments tables? 
+-- There is no direct relationship.
 
--- Show the SQL that created the dept_manager table. Write the SQL it takes to show this as your exercise solution.
+-- 15.Show the SQL that created the dept_manager table. Write the SQL it takes to show this as your exercise solution.
 SHOW CREATE TABLE dept_manager;
 
 
